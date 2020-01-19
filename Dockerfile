@@ -77,3 +77,6 @@ RUN git config --global user.name "MoveAngel"
 
 # Clang from Haseo97
 RUN git clone https://github.com/Haseo97/Clang-10.0.0 -b clang-10.0.0 --depth=1 /root/clang
+
+# Proton Clang 11
+RUN git clone https://github.com/HANA-CI-Build-Project/proton-clang -b proton-clang-11 --depth=1 /root/clang-11
