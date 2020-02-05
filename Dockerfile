@@ -14,9 +14,11 @@ RUN dnf install -y \
 	aarch64-linux-gnu-{binutils,gcc,glibc} \
 	arm-linux-gnueabi-{binutils,gcc,glibc} \
 	bc \
+	bison \
 	clang \
 	curl \
 	diffutils \
+	flex\
 	git-core \
 	gnupg1 \
 	hostname \
@@ -27,7 +29,9 @@ RUN dnf install -y \
 	m4 \
 	make \
 	openssl-devel \
+	python \
 	shtool \
+	wget \
 	which \
 	zip \
 	&& dnf clean all
