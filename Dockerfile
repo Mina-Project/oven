@@ -68,8 +68,8 @@ RUN apt-get update -qq && \
 	zstd
 
 # Git
-RUN git config --global user.email "najahiii@outlook.co.id"
-RUN git config --global user.name "Ahmad Thoriq Najahi"
+RUN git config --global user.email "moveangel29@gmail.com"
+RUN git config --global user.name "MoveAngel"
 
 # Clang
 RUN git clone https://github.com/NusantaraDevs/clang.git -b dev/11.0 --depth=1 --single-branch /root/clang
