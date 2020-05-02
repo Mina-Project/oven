@@ -52,7 +52,7 @@ RUN apt-get update -qq && \
 	patch \
 	pigz \
 	python3 \
-	python2 \
+	python \
 	rsync \
 	shtool \
 	subversion \
